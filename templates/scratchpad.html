@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Demonbox Configuration manager">
+    <meta name="Seth Wahle" content="Flask based application for configuring linux systems">
+    <title>Demonbox | Setup</title>
+    <link rel=stylesheet type=text/css href='{{ url_for('static',filename='style.css')}}'>
+    <link rel=stylesheet type=text/css href='{{ url_for('static',filename='bootstrap.min.css')}}'>
+    <link rel=stylesheet type=text/css href='{{ url_for('static',filename='font-awesome.min.css')}}'>
+
+</head><!--/head-->
+
+<body>
+
+<!--.preloader-->
+<div class="preloader"><i class="fa fa-circle-o-notch fa-spin"></i></div>
+<!--/.preloader-->
+
+
+<div class="col-sm-6">
+<img src="{{ url_for('static',filename='images/Logo.png')}}"></img>         
+</div>
+<div class="col-sm-6">
+<h2 class="heading">Welcome To your new Demonbox</h2>
+<p class="lead">Lets get your new system all setup! </p>
+</div>
+
+
+
+
+
+<script type="text/javascript" src="{{ url_for('static',filename='js/jquery.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static',filename='js/bootstrap.min.js')}}"></script>  
+<script type="text/javascript" src="{{ url_for('static',filename='js/main.js')}}"></script>
+
+</body>
+</html>
